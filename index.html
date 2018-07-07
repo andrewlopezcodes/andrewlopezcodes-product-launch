@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>landing page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index.css">
+
+
+  </head>
+  <body>
+    <header id="header">
+      <div class="container" id="headerInner">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light" id="nav-bar">
+            <img class="navbar-brand" src="https://scontent-lga3-1.cdninstagram.com/vp/493ce2736505abd8f2cb4dbad9b18875/5BC642C4/t51.2885-19/s150x150/20902480_133854267229116_2714333990071828480_a.jpg?efg=eyJ1cmxnZW4iOiJ1cmxnZW5fZnJvbV9pZyJ9" id="header-img">
+            <ul class="nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#video">Video</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#email">Email</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#left1">About Us</a>
+              </li>
+            </ul>
+      </div>
+    </header>
+    <div class="container1">
+      <div class="row" id="row1">
+        <div class="col-sm" id="left1">
+          <h1>Gold Roses Brand</h1>
+          <h3>“INSPIRED BY WOMEN WHO INSPIRE”</h3>
+          <p>Gold Roses Brand is a company founded in Brooklyn, NY to edify and say thank you to the women who’ve inspired me through out my life.  Inspiration is essential to accomplish greatness. Our company’s first product is a line of 134 natural soaps called Bathe Bars.</p>
+
+          <p>Each Bathe Bar is named after a woman that has inspired me to be better for myself and others to be better for their community. All of our soaps have shea butter and are made from natural oils to moisturize and protect the skin.  Most of our soaps have a form of exfolitant. From oatmeal to basil leaves to different clays each soap is unique. All natural is important to me. I want our customers to recognize and understand exactly what is going on their bodies and this is why our ingredients are simple and easily recognizable.<p>
+          <p>We also give back to the ladies who’ve inspired me by giving them a portion of the sale of the Bathe Bar named after them. I like to say, it’s great to say thank you but it’s even better to say thank you with cash!</p>
+          <p>Hugs,</p>
+
+          <p>Andrew Lopez</p>
+          <p>CEO</p>
+
+        </div>
+        <div class="col-sm" id="right1">
+          <div class="video">
+              <div style="text-align:center">
+                <button id="videoButton" onclick="playPause()">Play/Pause</button>
+                <button id="videoButton" onclick="makeBig()">Big</button>
+                <button id="videoButton" onclick="makeSmall()">Small</button>
+                <button id="videoButton" onclick="makeNormal()">Normal</button>
+                <br><br>
+                <video id="video" width="420">
+                  <source src="assets/20488161_1715945078708683_1550253619264094208_n.mp4" type="video/mp4">
+                </video>
+            </div>
+          </div>
+        </div>
+        <div>
+        <form action="https://www.freecodecamp.com/email-submit" method="get" id="form">
+          Email: <input type="email" name="email" placeholder="type email" id="email"><br>
+            <input type="submit" value="Submit" id="submit">
+        </form>
+        </div>
+      </div>
+    </div>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="index.js" type="text/javascript">
+
+    </script>
+  </body>
+</html>

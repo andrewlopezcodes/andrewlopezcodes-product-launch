@@ -1,0 +1,49 @@
+header{
+    z-index: 6;
+  background-color: white;
+  margin-bottom: 20px;
+  width: 100%;
+}
+#headerInner{
+  width: 100%;
+}
+.bg-light {
+
+    background-color: #ffffff!important;
+  }
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+.sticky + .content {
+  padding-top: 102px;
+}
+.navbar{
+  display: block;
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+body{
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: 25px;
+  margin-left: auto;
+  background-color: #ffffff;
+}
+#form{
+  margin-right: 25px;
+}
+}
+#video{
+  background-color:transparent;
+  height: 600px;
+  width: 600px;
+}
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: yellow;
+    }
+}
